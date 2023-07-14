@@ -1,0 +1,20 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    gap: 3rem;
+}
+
+.pagination li {
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.pagination li:hover {
+    box-shadow: .1rem .2rem .2rem var(--black);
+}

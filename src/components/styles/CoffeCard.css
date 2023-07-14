@@ -1,0 +1,34 @@
+.coffeCard {
+    border-bottom: .2rem solid #E1E1E1;
+    margin-bottom: 2rem;
+}
+
+.coffeCard__img {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    border: none;
+    font-family: var(--fontHeading);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){ 
+    .btn {
+        display: inline-block;
+    }
+}
+
+.coffeCard__btn {
+    background-color: var(--black);
+    color: var(--white);
+}

@@ -1,0 +1,27 @@
+.productCoffe {
+    margin: 2rem 0;
+}
+
+.productCoffe__title {
+    margin: 2rem 0;
+    text-align: center;
+    color: var(--primary);
+}
+
+.productCoffe__info {
+    display: grid;
+    row-gap: 1rem;
+}
+
+@media (min-width: 768px){ 
+    .productCoffe__info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: none;
+    }
+}
+
+.productCoffe__img {
+    max-width: 70%;
+    margin: 0 auto;
+}

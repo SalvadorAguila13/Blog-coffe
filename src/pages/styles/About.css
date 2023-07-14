@@ -1,0 +1,34 @@
+.about {
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px){ 
+    .about {
+        margin: 3rem 0;
+    }
+}
+
+.about__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media (min-width: 768px){ 
+    .about__title {
+        margin-bottom: 3rem;
+    }
+    
+}
+
+.about__info {
+    display: grid;
+    row-gap: 1rem;
+}
+
+@media (min-width: 768px){ 
+    .about__info {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: unset;
+}
+}
